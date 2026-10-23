@@ -1,0 +1,15 @@
+{
+  "name": "mcp-manifest-guard",
+  "version": "0.1.0",
+  "description": "Pin an MCP server's tool manifest, detect silent changes (rug pulls), and scan tool text for hidden instructions (tool poisoning). Zero dependencies.",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  "bin": { "mcp-manifest-guard": "cli.js" },
+  "files": ["index.js", "cli.js", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "keywords": ["mcp", "model-context-protocol", "security", "tool-poisoning", "rug-pull", "agents"],
+  "author": "Kshitijvv1211",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
